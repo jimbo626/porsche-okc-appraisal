@@ -34,26 +34,27 @@ select:focus-visible,textarea:focus-visible,summary:focus-visible{
   outline-offset:4px;
 }
 .wrap{max-width:1200px;margin:auto;padding:0 36px}
+
+/* Header and logo */
 header{background:white;border-bottom:1px solid var(--line)}
 .nav{
-  min-height:94px;
+  min-height:110px;
   display:flex;
   justify-content:space-between;
   align-items:center;
   gap:24px;
 }
-.wordmark{
+.brand{
   display:block;
-  font-size:30px;
-  font-weight:900;
-  letter-spacing:-1.7px;
-  line-height:1.1;
+  flex-shrink:0;
+  max-width:100%;
+  padding:14px 0;
 }
-.brand small{
+.brand-logo{
   display:block;
-  margin-top:7px;
-  font-size:9px;
-  letter-spacing:1.7px;
+  width:260px;
+  max-width:100%;
+  height:auto;
 }
 .nav-links{
   display:flex;
@@ -63,6 +64,7 @@ header{background:white;border-bottom:1px solid var(--line)}
   font-weight:700;
 }
 .nav-links a:hover{color:var(--blue)}
+
 .button{
   display:inline-flex;
   justify-content:center;
@@ -342,7 +344,7 @@ h2{
 .faq-column summary{cursor:pointer;font-size:14px;font-weight:700}
 .faq-column details p{font-size:14px;color:var(--muted)}
 
-/* Closing */
+/* Closing and footer */
 .closing{padding:48px 0;background:var(--blue);color:white}
 .closing .wrap{
   display:flex;
@@ -361,7 +363,12 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
   padding-bottom:25px;
   border-bottom:1px solid #34404e;
 }
-.footer-brand{color:white}
+.footer-logo{
+  display:inline-block;
+  max-width:100%;
+  padding:14px;
+  background:white;
+}
 .footer-top p{font-size:12px}
 .footer-links{
   display:flex;
@@ -374,8 +381,14 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
 .legal{font-size:10px;margin-top:20px}
 .copyright{font-size:11px;margin-top:20px}
 
+/* Responsive */
 @media(max-width:900px){
-  .nav-links{gap:16px}
+  .nav{
+    flex-wrap:wrap;
+    padding-top:14px;
+    padding-bottom:14px;
+  }
+  .nav-links{gap:16px;flex-wrap:wrap}
   .nav-links .optional{display:none}
   .choice{padding:28px}
   .sell-form-layout{grid-template-columns:1fr;gap:20px}
@@ -383,8 +396,9 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
 }
 @media(max-width:650px){
   .wrap{padding-left:22px;padding-right:22px}
-  .nav{flex-wrap:wrap;padding-top:16px;padding-bottom:16px;gap:15px}
-  .wordmark{font-size:25px}
+  .nav{padding-top:16px;padding-bottom:16px;gap:15px}
+  .brand{padding:0}
+  .brand-logo{width:220px}
   .nav-links{font-size:12px}
   .intro-section{padding:38px 0}
   .intro-heading h1{font-size:43px;letter-spacing:-1.8px}
@@ -416,8 +430,12 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
     <a class="brand"
        href="https://oklahomacity.porsche.com/en"
        aria-label="Porsche Oklahoma City home">
-      <span class="wordmark">PORSCHE</span>
-      <small>OKLAHOMA CITY · SELL YOURS. MAKE AN OFFER.</small>
+      <img
+        class="brand-logo"
+        src="images/porsche-oklahoma-city-logo.png"
+        alt="Porsche Oklahoma City"
+        width="2362"
+        height="729">
     </a>
 
     <nav class="nav-links" aria-label="Main navigation">
@@ -689,8 +707,8 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
                 method="POST"
                 action="/"
                 data-netlify="true"
-                netlify-honeypot="bot-field"
-              >
+                netlify-honeypot="bot-field">
+
                 <input type="hidden"
                        name="form-name"
                        value="vehicle-appraisal">
@@ -1108,13 +1126,25 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
   <div class="wrap">
     <div class="footer-top">
       <div>
-        <span class="wordmark footer-brand">PORSCHE</span>
+        <a class="footer-logo"
+           href="https://oklahomacity.porsche.com/en"
+           aria-label="Porsche Oklahoma City home">
+          <img
+            class="brand-logo"
+            src="images/porsche-oklahoma-city-logo.png"
+            alt="Porsche Oklahoma City"
+            width="2362"
+            height="729"
+            loading="lazy">
+        </a>
+
         <p>
           Porsche Oklahoma City · 12910 N. Broadway Extension,
           Oklahoma City, OK 73114 ·
           <a href="tel:+14057488080">(405) 748-8080</a>
         </p>
       </div>
+
       <nav class="footer-links" aria-label="Footer">
         <a href="#sell-your-vehicle" data-open-sell>Sell your vehicle</a>
         <a href="https://auction.b4auctions.com/#"
@@ -1535,3 +1565,4 @@ footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
 </script>
 </body>
 </html>
+```
