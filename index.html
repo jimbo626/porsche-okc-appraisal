@@ -1,0 +1,1537 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Porsche Oklahoma City | We Need Yours. Make Us an Offer.</title>
+
+<meta name="description"
+      content="Request an offer for your vehicle from Porsche Oklahoma City, or explore our available vehicles and make your next move.">
+
+<style>
+:root{
+  --ink:#17202a;
+  --blue:#123fd4;
+  --light:#f2f5f8;
+  --line:#dce2e8;
+  --muted:#536170;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:25px}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--ink);
+  line-height:1.6;
+}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+[hidden]{display:none!important}
+a:focus-visible,button:focus-visible,input:focus-visible,
+select:focus-visible,textarea:focus-visible,summary:focus-visible{
+  outline:3px solid #0096ff;
+  outline-offset:4px;
+}
+.wrap{max-width:1200px;margin:auto;padding:0 36px}
+header{background:white;border-bottom:1px solid var(--line)}
+.nav{
+  min-height:94px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+}
+.wordmark{
+  display:block;
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:-1.7px;
+  line-height:1.1;
+}
+.brand small{
+  display:block;
+  margin-top:7px;
+  font-size:9px;
+  letter-spacing:1.7px;
+}
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:24px;
+  font-size:13px;
+  font-weight:700;
+}
+.nav-links a:hover{color:var(--blue)}
+.button{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  padding:17px 23px;
+  background:var(--blue);
+  border:1px solid var(--blue);
+  color:white;
+  font-size:14px;
+  font-weight:700;
+  cursor:pointer;
+  transition:background .2s,transform .2s;
+}
+.button:hover{background:#0c2d9b;transform:translateY(-2px)}
+.button:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.button.white{background:white;border-color:white;color:var(--blue)}
+.button.white:hover{background:#eaf0ff}
+.eyebrow{
+  margin:0 0 16px;
+  color:var(--blue);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:2.2px;
+  text-transform:uppercase;
+}
+h1,h2,h3{overflow-wrap:break-word}
+h2{
+  margin:0 0 16px;
+  font-size:clamp(29px,3.4vw,42px);
+  line-height:1.15;
+  letter-spacing:-1.4px;
+}
+.text-link{font-size:13px;font-weight:700;color:var(--blue)}
+.text-link:hover{text-decoration:underline}
+.fine{font-size:12px;color:var(--muted)}
+.section{padding:70px 0}
+
+/* Introduction */
+.intro-section{
+  background:linear-gradient(180deg,#f1f5ff,white);
+  padding:54px 0 60px;
+}
+.intro-heading{
+  max-width:900px;
+  margin:0 auto 34px;
+  text-align:center;
+}
+.intro-heading h1{
+  margin:0 0 18px;
+  font-size:clamp(40px,5.5vw,66px);
+  line-height:1.08;
+  letter-spacing:-2.7px;
+}
+.intro-heading h1 span{color:var(--blue)}
+.intro-heading>p:last-child{
+  max-width:650px;
+  margin:0 auto;
+  color:var(--muted);
+  font-size:17px;
+}
+.choice-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+.choice{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  padding:36px;
+}
+.choice.sell{
+  background:white;
+  border:1px solid #cdd8f1;
+  box-shadow:0 14px 40px #123fd408;
+}
+.choice.shop{background:var(--ink);color:white}
+.choice-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:27px;
+}
+.choice-top .eyebrow{margin:0}
+.choice-symbol{font-size:26px;color:var(--blue)}
+.shop .eyebrow,.shop .choice-symbol{color:#9ac5ff}
+.choice h2{font-size:clamp(31px,3.7vw,45px)}
+.choice-description{
+  flex:1;
+  margin:0 0 25px;
+  font-size:15px;
+  color:var(--muted);
+}
+.shop .choice-description{color:#c2cdd8}
+.choice .button{width:100%;min-height:65px;font-size:16px}
+.choice .fine{margin:14px 0 0}
+.shop .fine{color:#abbaca}
+.choice-sub-link{
+  display:inline-block;
+  margin-top:16px;
+  color:var(--blue);
+  font-size:12px;
+  font-weight:700;
+}
+.shop .choice-sub-link{color:#a7ceff}
+.local{
+  background:#eaf0ff;
+  border-top:1px solid #dce5fa;
+  border-bottom:1px solid #dce5fa;
+}
+.local .wrap{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding-top:17px;
+  padding-bottom:17px;
+  font-size:12px;
+}
+
+/* How it works */
+.section-heading{
+  max-width:720px;
+  margin:0 auto 35px;
+  text-align:center;
+}
+.section-heading>p:last-child{color:var(--muted);font-size:15px}
+.process-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+.process-card{
+  display:flex;
+  flex-direction:column;
+  padding:32px;
+  border:1px solid var(--line);
+}
+.process-card.shop-process{background:var(--light)}
+.process-card h3{
+  margin:0 0 10px;
+  font-size:25px;
+  line-height:1.2;
+  letter-spacing:-.6px;
+}
+.process-list{flex:1;list-style:none;padding:0;margin:20px 0}
+.process-list li{
+  display:flex;
+  gap:15px;
+  padding:17px 0;
+  border-top:1px solid var(--line);
+}
+.process-number{color:var(--blue);font-size:13px;font-weight:700}
+.process-list strong{display:block;font-size:16px;margin-bottom:4px}
+.process-list p{margin:0;font-size:14px;color:var(--muted)}
+
+/* Form */
+.sell-section{
+  background:#f3f6fc;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  padding:48px 0;
+}
+.sell-shell{background:white;border:1px solid var(--line)}
+.sell-shell>summary{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:27px 30px;
+  cursor:pointer;
+  list-style:none;
+}
+.sell-shell>summary::-webkit-details-marker{display:none}
+.sell-shell>summary:after{content:"+";color:var(--blue);font-size:30px}
+.sell-shell[open]>summary:after{content:"−"}
+.form-summary-title{display:block;font-size:23px;font-weight:700}
+.form-summary-copy{
+  display:block;
+  margin-top:5px;
+  font-size:14px;
+  color:var(--muted);
+}
+.sell-content{padding:30px;border-top:1px solid var(--line)}
+.sell-form-layout{
+  display:grid;
+  grid-template-columns:.65fr 1.35fr;
+  gap:38px;
+  align-items:start;
+}
+.form-aside h3{margin:0 0 15px;font-size:25px;line-height:1.2}
+.form-aside p{color:var(--muted);font-size:14px}
+.form-note{margin:8px 0 18px;font-size:12px;color:var(--muted)}
+.form-note a{color:var(--blue);text-decoration:underline}
+.sell-form fieldset{border:0;padding:0;margin:0 0 25px;min-width:0}
+.sell-form legend{font-size:15px;font-weight:700;margin-bottom:13px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  font-size:12px;
+  font-weight:700;
+}
+.full{grid-column:1/-1}
+.sell-form input:not([type="checkbox"]),
+.sell-form select,.sell-form textarea{
+  width:100%;
+  min-width:0;
+  padding:12px;
+  border:1px solid #bcc7d3;
+  border-radius:0;
+  background:white;
+  color:var(--ink);
+  font-size:16px;
+  font-weight:400;
+}
+.sell-form textarea{resize:vertical}
+.lookup-fields{margin-top:14px}
+.lookup-button{
+  margin-top:14px;
+  padding:12px 18px;
+  color:var(--blue);
+  background:white;
+  border:1px solid var(--blue);
+  font-size:13px;
+  font-weight:700;
+  cursor:pointer;
+}
+.lookup-button:disabled{opacity:.55;cursor:not-allowed}
+.status{margin:12px 0;font-size:13px;color:var(--muted)}
+.status:empty{margin:0}
+.check{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:18px 0;
+  font-size:12px;
+  color:var(--muted);
+}
+.check input{flex-shrink:0;margin-top:4px}
+.submit-button{width:100%}
+.success{
+  padding:15px;
+  background:#edf8f0;
+  border:1px solid #bedfc7;
+  color:#225f36;
+}
+.error{
+  padding:15px;
+  background:#fff3ef;
+  border:1px solid #e9c6bc;
+  color:#843523;
+}
+
+/* Resources and questions */
+.resource-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.resource{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:28px;
+  border:1px solid var(--line);
+}
+.resource h3{font-size:21px;margin:0}
+.resource p{flex:1;font-size:14px;color:var(--muted)}
+.faq-section{background:var(--light)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.faq-column h3{font-size:22px;margin:0 0 18px}
+.faq-column details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq-column details:first-of-type{border-top:1px solid var(--line)}
+.faq-column summary{cursor:pointer;font-size:14px;font-weight:700}
+.faq-column details p{font-size:14px;color:var(--muted)}
+
+/* Closing */
+.closing{padding:48px 0;background:var(--blue);color:white}
+.closing .wrap{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px;
+}
+.closing h2{font-size:32px;margin:0 0 8px}
+.closing p{margin:0;color:#dce6ff;font-size:14px}
+.closing-actions{display:flex;flex-wrap:wrap;gap:12px}
+footer{padding:40px 0 25px;background:#101821;color:#a7b3c0}
+.footer-top{
+  display:flex;
+  justify-content:space-between;
+  gap:30px;
+  padding-bottom:25px;
+  border-bottom:1px solid #34404e;
+}
+.footer-brand{color:white}
+.footer-top p{font-size:12px}
+.footer-links{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:18px;
+  font-size:12px;
+}
+.footer-links a:hover{color:white}
+.legal{font-size:10px;margin-top:20px}
+.copyright{font-size:11px;margin-top:20px}
+
+@media(max-width:900px){
+  .nav-links{gap:16px}
+  .nav-links .optional{display:none}
+  .choice{padding:28px}
+  .sell-form-layout{grid-template-columns:1fr;gap:20px}
+  .closing .wrap{flex-direction:column;align-items:flex-start}
+}
+@media(max-width:650px){
+  .wrap{padding-left:22px;padding-right:22px}
+  .nav{flex-wrap:wrap;padding-top:16px;padding-bottom:16px;gap:15px}
+  .wordmark{font-size:25px}
+  .nav-links{font-size:12px}
+  .intro-section{padding:38px 0}
+  .intro-heading h1{font-size:43px;letter-spacing:-1.8px}
+  .intro-heading>p:last-child{font-size:15px}
+  .choice-grid,.process-grid,.resource-grid,.faq-grid,.form-grid{
+    grid-template-columns:1fr;
+  }
+  .choice h2{font-size:35px}
+  .choice .button{font-size:15px}
+  .local .wrap{flex-direction:column;gap:5px}
+  .section{padding:50px 0}
+  .process-card{padding:25px}
+  .sell-shell>summary,.sell-content{padding:23px}
+  .form-summary-title{font-size:21px}
+  .footer-top{flex-direction:column}
+  .closing-actions{width:100%}
+  .closing-actions .button{flex:1}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .button{transition:none}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand"
+       href="https://oklahomacity.porsche.com/en"
+       aria-label="Porsche Oklahoma City home">
+      <span class="wordmark">PORSCHE</span>
+      <small>OKLAHOMA CITY · SELL YOURS. MAKE AN OFFER.</small>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#sell-your-vehicle" data-open-sell>Sell your vehicle</a>
+      <a href="https://auction.b4auctions.com/#"
+         target="_blank" rel="noopener">Make Us an Offer ↗</a>
+      <a class="optional" href="#how-it-works">How it works</a>
+      <a class="optional" href="#resources">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="intro-section" aria-labelledby="page-title">
+    <div class="wrap">
+      <div class="intro-heading">
+        <p class="eyebrow">Two ways to make your next move</p>
+        <h1 id="page-title">
+          We Need Yours.<br>
+          <span>Make Us an Offer.</span>
+        </h1>
+        <p>
+          Have a vehicle to sell? See one of ours you like?
+          Start here with Porsche Oklahoma City.
+        </p>
+      </div>
+
+      <div class="choice-grid">
+        <article class="choice sell">
+          <div class="choice-top">
+            <p class="eyebrow">Sell to Porsche Oklahoma City</p>
+            <span class="choice-symbol" aria-hidden="true">→</span>
+          </div>
+          <h2>Your vehicle.<br>Our offer.</h2>
+          <p class="choice-description">
+            Tell us what you drive. Our team will review your
+            information and follow up about an offer and the next steps.
+          </p>
+          <a class="button" href="#sell-your-vehicle" data-open-sell>
+            We Will Buy Your Vehicle →
+          </a>
+          <p class="fine">
+            Purchase is subject to appraisal, inspection,
+            and agreement on terms.
+          </p>
+          <a class="choice-sub-link" href="#selling-process">
+            See how selling works ↓
+          </a>
+        </article>
+
+        <article class="choice shop">
+          <div class="choice-top">
+            <p class="eyebrow">Make Us an Offer</p>
+            <span class="choice-symbol" aria-hidden="true">↗</span>
+          </div>
+          <h2>Our vehicles.<br>Your next move.</h2>
+          <p class="choice-description">
+            Find a vehicle you like and make your next move.
+            Explore the listings and use the available bidding
+            or purchase options.
+          </p>
+          <a class="button white"
+             href="https://auction.b4auctions.com/#"
+             target="_blank" rel="noopener">
+            Make Us an Offer on One of Ours ↗
+          </a>
+          <p class="fine">
+            Opens B4 Auctions. Available bidding and purchase
+            options depend on the listing.
+          </p>
+          <a class="choice-sub-link" href="#buying-process">
+            See how it works ↓
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="local">
+    <div class="wrap">
+      <strong>
+        Porsche Oklahoma City · 12910 N. Broadway Extension,
+        Oklahoma City, OK 73114
+      </strong>
+      <span>
+        <a href="tel:+14057488080">(405) 748-8080</a>
+        · Serving the Oklahoma City metro
+      </span>
+    </div>
+  </div>
+
+  <section class="section" id="how-it-works">
+    <div class="wrap">
+      <div class="section-heading">
+        <p class="eyebrow">How it works</p>
+        <h2>Two clear paths.<br>One place to start.</h2>
+        <p>
+          Sell your current vehicle or make your next move on one of ours.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <article class="process-card" id="selling-process">
+          <p class="eyebrow">We buy your vehicle</p>
+          <h3>Start online. Finish with our team.</h3>
+
+          <ol class="process-list">
+            <li>
+              <span class="process-number">01</span>
+              <div>
+                <strong>Tell us about your vehicle</strong>
+                <p>
+                  Start with your plate and state, VIN, or vehicle details.
+                  Add mileage, condition, and contact information.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">02</span>
+              <div>
+                <strong>We’ll get back to you about an offer</strong>
+                <p>
+                  Our team reviews your information and contacts
+                  you to discuss your vehicle and a potential offer.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">03</span>
+              <div>
+                <strong>Bring in your vehicle</strong>
+                <p>
+                  Schedule a visit for an inspection and to confirm
+                  the vehicle details and purchase terms.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">04</span>
+              <div>
+                <strong>Finalize the sale and get paid</strong>
+                <p>
+                  Complete the required paperwork and receive
+                  payment according to the agreed terms.
+                </p>
+              </div>
+            </li>
+          </ol>
+
+          <a class="button" href="#sell-your-vehicle" data-open-sell>
+            Start with my vehicle →
+          </a>
+          <p class="fine">
+            Final offers and payment timing depend on inspection,
+            title or lien status, required documents, and agreed terms.
+          </p>
+        </article>
+
+        <article class="process-card shop-process" id="buying-process">
+          <p class="eyebrow">Make Us an Offer</p>
+          <h3>Find a vehicle. Make your move.</h3>
+
+          <ol class="process-list">
+            <li>
+              <span class="process-number">01</span>
+              <div>
+                <strong>Browse available vehicles</strong>
+                <p>
+                  Explore the listings and find the cars,
+                  trucks, and SUVs that fit your needs.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">02</span>
+              <div>
+                <strong>Review the details</strong>
+                <p>
+                  Check condition information, fees, bidding rules,
+                  and payment terms. Ask questions before bidding.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">03</span>
+              <div>
+                <strong>Register and make your move</strong>
+                <p>
+                  Follow the registration steps. Place a bid or
+                  choose another purchase option where offered.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="process-number">04</span>
+              <div>
+                <strong>Complete your purchase</strong>
+                <p>
+                  If accepted, coordinate paperwork, payment,
+                  and pickup with the selling dealership.
+                </p>
+              </div>
+            </li>
+          </ol>
+
+          <a class="button"
+             href="https://auction.b4auctions.com/#"
+             target="_blank" rel="noopener">
+            Make Us an Offer ↗
+          </a>
+          <p class="fine">
+            Availability, reserves, fees, eligibility, and purchase
+            terms are determined by the listing and seller.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sell-section"
+           id="sell-your-vehicle"
+           aria-label="Vehicle appraisal request">
+    <div class="wrap">
+      <details class="sell-shell" id="sell-panel">
+        <summary>
+          <span>
+            <span class="form-summary-title">
+              We need yours. Tell us about your vehicle.
+            </span>
+            <span class="form-summary-copy">
+              Start with your license plate, VIN, or vehicle details.
+            </span>
+          </span>
+        </summary>
+
+        <div class="sell-content">
+          <div class="sell-form-layout">
+            <aside class="form-aside">
+              <p class="eyebrow">Start your appraisal</p>
+              <h3>A few details.<br>A conversation with our team.</h3>
+              <p>
+                Use your license plate and registration state,
+                enter your VIN, or provide your vehicle details manually.
+              </p>
+              <p>
+                Review any lookup results and tell us about your
+                mileage, vehicle condition, and known issues.
+              </p>
+              <a class="text-link" href="tel:+14057488080">
+                Questions? Call (405) 748-8080
+              </a>
+              <p class="form-note">
+                This is an appraisal request, not a guaranteed purchase offer.
+              </p>
+            </aside>
+
+            <div>
+              <noscript>
+                <p>
+                  Automatic lookup requires JavaScript.
+                  You can still enter vehicle details and submit this form.
+                </p>
+              </noscript>
+
+              <form
+                class="sell-form"
+                id="vehicle-form"
+                name="vehicle-appraisal"
+                method="POST"
+                action="/"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+              >
+                <input type="hidden"
+                       name="form-name"
+                       value="vehicle-appraisal">
+
+                <input type="hidden"
+                       name="source"
+                       value="porsche-oklahoma-city-landing-page">
+
+                <input type="hidden"
+                       id="decoded-vin"
+                       name="decodedVin"
+                       value="">
+
+                <p hidden>
+                  <label>
+                    Leave this field empty:
+                    <input name="bot-field"
+                           type="text"
+                           tabindex="-1"
+                           autocomplete="off">
+                  </label>
+                </p>
+
+                <p class="form-note">
+                  Required fields are marked with an asterisk (*).
+                </p>
+
+                <fieldset>
+                  <legend>1. Identify your vehicle</legend>
+
+                  <label class="field" for="lookup-method">
+                    Start with
+                    <select id="lookup-method" name="lookupMethod">
+                      <option value="manual">Enter vehicle details manually</option>
+                      <option value="plate">License plate + state</option>
+                      <option value="vin">VIN</option>
+                    </select>
+                  </label>
+
+                  <div class="lookup-fields" id="plate-fields" hidden>
+                    <div class="form-grid">
+                      <label class="field" for="plate">
+                        License plate *
+                        <input id="plate"
+                               name="plate"
+                               maxlength="12"
+                               autocomplete="off"
+                               autocapitalize="characters"
+                               spellcheck="false"
+                               disabled>
+                      </label>
+
+                      <label class="field" for="state">
+                        Registration state *
+                        <select id="state" name="state" disabled>
+                          <option value="">Select state</option>
+                        </select>
+                      </label>
+                    </div>
+
+                    <p class="form-note">
+                      Plate and state are sent to our vehicle-data
+                      provider to identify a VIN. The VIN may then
+                      be decoded using NHTSA’s public service.
+                    </p>
+                  </div>
+
+                  <div class="lookup-fields" id="vin-fields" hidden>
+                    <label class="field" for="vin">
+                      VIN *
+                      <input id="vin"
+                             name="vin"
+                             minlength="17"
+                             maxlength="17"
+                             pattern="[A-HJ-NPR-Za-hj-npr-z0-9]{17}"
+                             title="Enter a 17-character VIN without I, O, or Q."
+                             autocomplete="off"
+                             autocapitalize="characters"
+                             spellcheck="false"
+                             disabled>
+                    </label>
+                    <p class="form-note">
+                      VIN lookup sends the VIN to NHTSA’s public service.
+                      For an older vehicle without a 17-character VIN,
+                      choose manual entry.
+                    </p>
+                  </div>
+
+                  <button class="lookup-button"
+                          type="button"
+                          id="lookup-button"
+                          hidden>
+                    Find my vehicle
+                  </button>
+
+                  <p class="status"
+                     id="lookup-status"
+                     role="status"
+                     aria-live="polite"></p>
+                </fieldset>
+
+                <fieldset>
+                  <legend>2. Vehicle details and condition</legend>
+                  <p class="form-note">
+                    Review and correct any details filled by a lookup.
+                  </p>
+
+                  <div class="form-grid">
+                    <label class="field" for="year">
+                      Year *
+                      <input type="number" id="year" name="year"
+                             min="1900" max="2100" step="1" required>
+                    </label>
+                    <label class="field" for="make">
+                      Make *
+                      <input id="make" name="make" maxlength="80" required>
+                    </label>
+                    <label class="field" for="model">
+                      Model *
+                      <input id="model" name="model" maxlength="80" required>
+                    </label>
+                    <label class="field" for="trim">
+                      Trim, if known
+                      <input id="trim" name="trim" maxlength="80">
+                    </label>
+                    <label class="field" for="mileage">
+                      Mileage *
+                      <input type="number" id="mileage" name="mileage"
+                             min="0" max="2000000" step="1"
+                             inputmode="numeric" required>
+                    </label>
+                    <label class="field" for="zip">
+                      ZIP code *
+                      <input id="zip" name="zip"
+                             autocomplete="postal-code"
+                             inputmode="numeric"
+                             pattern="[0-9]{5}" maxlength="5"
+                             title="Enter a 5-digit ZIP code." required>
+                    </label>
+                    <label class="field" for="condition">
+                      Overall condition *
+                      <select id="condition" name="condition" required>
+                        <option value="">Select condition</option>
+                        <option>Excellent</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                        <option>Poor / needs repairs</option>
+                      </select>
+                    </label>
+                    <label class="field" for="accidents">
+                      Accident history *
+                      <select id="accidents" name="accidents" required>
+                        <option value="">Select answer</option>
+                        <option>No known accidents</option>
+                        <option>One or more accidents</option>
+                        <option>Not sure</option>
+                      </select>
+                    </label>
+                    <label class="field" for="financing">
+                      Outstanding loan or lease *
+                      <select id="financing" name="financingStatus" required>
+                        <option value="">Select answer</option>
+                        <option>Owned outright</option>
+                        <option>Outstanding loan</option>
+                        <option>Leased</option>
+                        <option>Not sure</option>
+                      </select>
+                    </label>
+                    <label class="field" for="timeframe">
+                      When would you like to sell?
+                      <select id="timeframe" name="timeframe">
+                        <option value="">Select timeframe</option>
+                        <option>As soon as possible</option>
+                        <option>Within two weeks</option>
+                        <option>Within a month</option>
+                        <option>Just exploring</option>
+                      </select>
+                    </label>
+                    <label class="field full" for="notes">
+                      Damage, mechanical issues, or other details
+                      <textarea id="notes" name="notes"
+                                rows="3" maxlength="2000"
+                                placeholder="Tell us what we should know about your vehicle."></textarea>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <fieldset>
+                  <legend>3. Your contact information</legend>
+                  <div class="form-grid">
+                    <label class="field" for="customer-name">
+                      Full name *
+                      <input id="customer-name" name="name"
+                             autocomplete="name" maxlength="120" required>
+                    </label>
+                    <label class="field" for="email">
+                      Email *
+                      <input type="email" id="email" name="email"
+                             autocomplete="email" maxlength="254" required>
+                    </label>
+                    <label class="field" for="phone">
+                      <span>
+                        Phone <span id="phone-required">(optional)</span>
+                      </span>
+                      <input type="tel" id="phone" name="phone"
+                             autocomplete="tel" maxlength="30">
+                    </label>
+                    <label class="field" for="contact-method">
+                      Preferred contact *
+                      <select id="contact-method" name="contactMethod">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone call</option>
+                      </select>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <label class="check" for="confirm">
+                  <input type="checkbox"
+                         id="confirm"
+                         name="detailsConfirmed"
+                         value="yes"
+                         required>
+                  <span>
+                    I have reviewed the vehicle details and confirm
+                    they are accurate to the best of my knowledge. *
+                  </span>
+                </label>
+
+                <p class="form-note">
+                  By submitting, you request contact from Porsche
+                  Oklahoma City about this appraisal. Your information
+                  will be processed through Netlify Forms and shared
+                  with the dealership and site operator handling the
+                  request. This does not enroll you in marketing text messages.
+                  <a href="https://oklahomacity.porsche.com/en/contact"
+                     target="_blank" rel="noopener">
+                    Contact the dealership with privacy questions.
+                  </a>
+                </p>
+
+                <button class="button submit-button"
+                        type="submit"
+                        id="submit-button">
+                  Request my vehicle offer →
+                </button>
+
+                <p class="status"
+                   id="submit-status"
+                   role="status"
+                   aria-live="polite"></p>
+
+                <p class="form-note">
+                  Any preliminary offer is subject to inspection and
+                  verification. Do not include banking details,
+                  Social Security numbers, or driver’s license information.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="section" id="resources">
+    <div class="wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Planning your next purchase?</p>
+        <h2>A little preparation.<br>A more confident next move.</h2>
+      </div>
+
+      <div class="resource-grid">
+        <article class="resource">
+          <h3>Explore financing</h3>
+          <p>
+            Learn about financing options and connect with the
+            Porsche Oklahoma City finance team.
+          </p>
+          <a class="text-link"
+             href="https://oklahomacity.porsche.com/en/finance-and-insurance"
+             target="_blank" rel="noopener">
+            Explore financing ↗
+          </a>
+        </article>
+        <article class="resource">
+          <h3>Plan your payment</h3>
+          <p>
+            Ask how price, down payment, and loan terms could affect
+            your monthly budget.
+          </p>
+          <a class="text-link"
+             href="https://oklahomacity.porsche.com/en/contact"
+             target="_blank" rel="noopener">
+            Talk with our team ↗
+          </a>
+        </article>
+        <article class="resource">
+          <h3>Explore a trade-in</h3>
+          <p>
+            See how your current vehicle could fit into your next purchase.
+          </p>
+          <a class="text-link"
+             href="https://oklahomacity.porsche.com/en/trade-in"
+             target="_blank" rel="noopener">
+            Explore trade-in value ↗
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq-section" id="questions">
+    <div class="wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Good questions. Clear next steps.</p>
+        <h2>Selling or making an offer?<br>Here’s what to know.</h2>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-column">
+          <h3>Selling your vehicle</h3>
+          <details>
+            <summary>Is submitting the form a guaranteed offer?</summary>
+            <p>
+              No. It starts an appraisal conversation. Any preliminary
+              offer is subject to inspection, ownership verification,
+              and agreed purchase terms.
+            </p>
+          </details>
+          <details>
+            <summary>What if I still have a loan?</summary>
+            <p>
+              Let the team know. They can explain the payoff process
+              and required documents. Any remaining balance affects
+              the sale proceeds.
+            </p>
+          </details>
+          <details>
+            <summary>When do I get paid?</summary>
+            <p>
+              Confirm payment method and timing with the dealership.
+              They depend on inspection, paperwork, title or lien
+              requirements, and agreed terms.
+            </p>
+          </details>
+          <details>
+            <summary>What if the vehicle lookup does not work?</summary>
+            <p>
+              Choose manual entry and enter the year, make, and model.
+              Lookup coverage varies and results may be incomplete.
+            </p>
+          </details>
+        </div>
+
+        <div class="faq-column">
+          <h3>Making your next move</h3>
+          <details>
+            <summary>Where does “Make Us an Offer” take me?</summary>
+            <p>
+              It opens B4 Auctions. Review the listing and use its
+              available bidding or purchase options. Options vary by listing.
+            </p>
+          </details>
+          <details>
+            <summary>Can I see a vehicle before bidding?</summary>
+            <p>
+              Contact the selling dealership shown on the listing
+              to confirm the location and arrange a visit or test drive,
+              subject to availability.
+            </p>
+          </details>
+          <details>
+            <summary>What should I review before bidding?</summary>
+            <p>
+              Review condition details, reserve requirements,
+              auction timing, fees, and payment terms.
+              Ask the seller about anything that is unclear.
+            </p>
+          </details>
+          <details>
+            <summary>Can I finance a purchase or trade in a vehicle?</summary>
+            <p>
+              Discuss financing and trade-in options with the selling
+              dealership before bidding. Availability and approval
+              depend on the vehicle, dealership, and your circumstances.
+            </p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap">
+      <div>
+        <h2>We need yours. Like one of ours?</h2>
+        <p>Start your next move with Porsche Oklahoma City.</p>
+      </div>
+      <div class="closing-actions">
+        <a class="button white" href="#sell-your-vehicle" data-open-sell>
+          Sell my vehicle →
+        </a>
+        <a class="button white"
+           href="https://auction.b4auctions.com/#"
+           target="_blank" rel="noopener">
+          Make Us an Offer ↗
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <span class="wordmark footer-brand">PORSCHE</span>
+        <p>
+          Porsche Oklahoma City · 12910 N. Broadway Extension,
+          Oklahoma City, OK 73114 ·
+          <a href="tel:+14057488080">(405) 748-8080</a>
+        </p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#sell-your-vehicle" data-open-sell>Sell your vehicle</a>
+        <a href="https://auction.b4auctions.com/#"
+           target="_blank" rel="noopener">Make Us an Offer ↗</a>
+        <a href="https://auction.b4auctions.com/Home/PrivacyPolicy"
+           target="_blank" rel="noopener">Auction privacy policy</a>
+        <a href="https://www.b4auctions.com/terms-and-conditions"
+           target="_blank" rel="noopener">Auction terms</a>
+        <a href="https://oklahomacity.porsche.com/en/contact"
+           target="_blank" rel="noopener">Contact</a>
+      </nav>
+    </div>
+
+    <p class="legal">
+      Vehicle purchase offers are subject to appraisal, inspection,
+      ownership verification, and agreed terms. Payment timing and
+      method must be confirmed with the dealership. Auction links
+      open B4 Auctions. Vehicle availability, reserves, fees,
+      eligibility, financing, and purchase terms are determined by
+      the listing and selling dealership. The auction privacy policy
+      applies to the auction platform; contact the dealership about
+      privacy practices for appraisal requests on this site.
+    </p>
+    <p class="copyright">
+      © 2026 Porsche Oklahoma City · Auction platform: B4 Auctions
+    </p>
+  </div>
+</footer>
+
+<script>
+(() => {
+  "use strict";
+
+  const PLATE_ENDPOINT = "/.netlify/functions/plate-lookup";
+
+  const $ = id => document.getElementById(id);
+  const form = $("vehicle-form");
+
+  document.querySelectorAll("[data-open-sell]").forEach(link => {
+    link.addEventListener("click", () => {
+      $("sell-panel").open = true;
+    });
+  });
+
+  function openFromHash() {
+    if (location.hash === "#sell-your-vehicle") {
+      $("sell-panel").open = true;
+    }
+  }
+
+  openFromHash();
+  window.addEventListener("hashchange", openFromHash);
+
+  const states = [
+    ["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],
+    ["AR","Arkansas"],["CA","California"],["CO","Colorado"],
+    ["CT","Connecticut"],["DE","Delaware"],
+    ["DC","District of Columbia"],["FL","Florida"],
+    ["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],
+    ["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],
+    ["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],
+    ["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],
+    ["MI","Michigan"],["MN","Minnesota"],["MS","Mississippi"],
+    ["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],
+    ["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],
+    ["NM","New Mexico"],["NY","New York"],
+    ["NC","North Carolina"],["ND","North Dakota"],
+    ["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],
+    ["PA","Pennsylvania"],["RI","Rhode Island"],
+    ["SC","South Carolina"],["SD","South Dakota"],
+    ["TN","Tennessee"],["TX","Texas"],["UT","Utah"],
+    ["VT","Vermont"],["VA","Virginia"],["WA","Washington"],
+    ["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"]
+  ];
+
+  states.forEach(([code, name]) => {
+    $("state").add(new Option(name, code));
+  });
+
+  $("year").max = String(new Date().getFullYear() + 2);
+
+  let lookupController = null;
+  let submitting = false;
+  let submitted = false;
+
+  const plateCache = new Map();
+
+  function setLookupStatus(message, error = false) {
+    $("lookup-status").className = error ? "status error" : "status";
+    $("lookup-status").textContent = message;
+  }
+
+  function cancelLookup() {
+    if (lookupController) {
+      lookupController.abort();
+      lookupController = null;
+    }
+
+    $("lookup-button").disabled = false;
+  }
+
+  function invalidateIdentity() {
+    cancelLookup();
+    $("decoded-vin").value = "";
+    $("confirm").checked = false;
+    setLookupStatus("");
+  }
+
+  function updateMethod() {
+    invalidateIdentity();
+
+    const method = $("lookup-method").value;
+    const plateMode = method === "plate";
+    const vinMode = method === "vin";
+
+    $("plate-fields").hidden = !plateMode;
+    $("vin-fields").hidden = !vinMode;
+    $("lookup-button").hidden = method === "manual";
+
+    ["plate", "state"].forEach(id => {
+      $(id).disabled = !plateMode;
+      $(id).required = plateMode;
+    });
+
+    $("vin").disabled = !vinMode;
+    $("vin").required = vinMode;
+  }
+
+  $("lookup-method").addEventListener("change", updateMethod);
+  $("plate").addEventListener("input", invalidateIdentity);
+  $("state").addEventListener("change", invalidateIdentity);
+  $("vin").addEventListener("input", invalidateIdentity);
+
+  ["year", "make", "model", "trim"].forEach(id => {
+    $(id).addEventListener("input", () => {
+      cancelLookup();
+      $("confirm").checked = false;
+      setLookupStatus("");
+    });
+  });
+
+  function updateContactMethod() {
+    const required = $("contact-method").value === "phone";
+    $("phone").required = required;
+    $("phone-required").textContent = required ? "*" : "(optional)";
+  }
+
+  $("contact-method").addEventListener("change", updateContactMethod);
+
+  async function decodeVIN(vin, signal) {
+    if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) {
+      throw new Error(
+        "The VIN could not be confirmed. Please use manual entry."
+      );
+    }
+
+    const response = await fetch(
+      "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/" +
+      encodeURIComponent(vin) +
+      "?format=json",
+      { signal }
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        "VIN decoding is temporarily unavailable. Please enter vehicle details manually."
+      );
+    }
+
+    const data = await response.json();
+    const vehicle = data.Results?.[0];
+
+    if (
+      !vehicle ||
+      String(vehicle.ErrorCode).trim() !== "0" ||
+      !vehicle.ModelYear ||
+      !vehicle.Make ||
+      !vehicle.Model
+    ) {
+      throw new Error(
+        "We could not reliably decode this VIN. Please enter vehicle details manually."
+      );
+    }
+
+    return {
+      year: vehicle.ModelYear,
+      make: vehicle.Make,
+      model: vehicle.Model,
+      trim: vehicle.Trim || ""
+    };
+  }
+
+  async function lookupPlate(plate, state, signal) {
+    const cacheKey = state + ":" + plate;
+
+    if (plateCache.has(cacheKey)) {
+      return plateCache.get(cacheKey);
+    }
+
+    const response = await fetch(PLATE_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ plate, state }),
+      signal
+    });
+
+    if (response.status === 404) {
+      throw new Error(
+        "Plate lookup is not connected on this site yet. Please use VIN or manual entry."
+      );
+    }
+
+    const contentType = response.headers.get("content-type") || "";
+
+    if (!contentType.includes("application/json")) {
+      throw new Error(
+        "Plate lookup is not connected correctly. Please use VIN or manual entry."
+      );
+    }
+
+    const data = await response.json();
+
+    if (!response.ok || data.success !== true || !data.vin) {
+      throw new Error(
+        data.message ||
+        "Plate lookup could not confirm your vehicle. Please use VIN or manual entry."
+      );
+    }
+
+    const vin = String(data.vin).trim().toUpperCase();
+
+    if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) {
+      throw new Error(
+        "The plate lookup did not return a valid VIN. Please use manual entry."
+      );
+    }
+
+    plateCache.set(cacheKey, vin);
+    return vin;
+  }
+
+  $("lookup-button").addEventListener("click", async () => {
+    const method = $("lookup-method").value;
+
+    if (method === "manual" || submitting || submitted) return;
+
+    let vin = "";
+
+    if (method === "plate") {
+      $("plate").value = $("plate").value.trim().toUpperCase();
+
+      if (!$("plate").reportValidity() ||
+          !$("state").reportValidity()) return;
+    } else {
+      $("vin").value = $("vin").value.trim().toUpperCase();
+
+      if (!$("vin").reportValidity()) return;
+      vin = $("vin").value;
+    }
+
+    cancelLookup();
+
+    const controller = new AbortController();
+    lookupController = controller;
+
+    const timeout = setTimeout(() => controller.abort(), 60000);
+
+    $("lookup-button").disabled = true;
+    $("confirm").checked = false;
+    $("decoded-vin").value = "";
+
+    setLookupStatus(
+      method === "plate"
+        ? "Finding the VIN for your plate…"
+        : "Looking up your vehicle…"
+    );
+
+    try {
+      if (method === "plate") {
+        vin = await lookupPlate(
+          $("plate").value,
+          $("state").value,
+          controller.signal
+        );
+      }
+
+      if (lookupController !== controller) return;
+
+      $("decoded-vin").value = vin;
+      setLookupStatus("Decoding your vehicle details…");
+
+      const vehicle = await decodeVIN(vin, controller.signal);
+
+      if (lookupController !== controller) return;
+
+      $("year").value = vehicle.year;
+      $("make").value = vehicle.make;
+      $("model").value = vehicle.model;
+      $("trim").value = vehicle.trim;
+
+      setLookupStatus(
+        `Found: ${vehicle.year} ${vehicle.make} ${vehicle.model}. ` +
+        "Please confirm this is your vehicle and correct any details below."
+      );
+
+    } catch (error) {
+      if (lookupController !== controller) return;
+
+      setLookupStatus(
+        error.name === "AbortError"
+          ? "The lookup took too long. Please try again or enter vehicle details manually."
+          : (
+              error instanceof TypeError
+                ? "The lookup service could not be reached. Please use manual entry."
+                : error.message
+            ),
+        true
+      );
+
+    } finally {
+      clearTimeout(timeout);
+
+      if (lookupController === controller) {
+        lookupController = null;
+        $("lookup-button").disabled = false;
+      }
+    }
+  });
+
+  form.addEventListener("submit", async event => {
+    event.preventDefault();
+
+    if (submitting || submitted) return;
+    if (!form.reportValidity()) return;
+
+    if (!["http:", "https:"].includes(location.protocol)) {
+      $("submit-status").className = "status error";
+      $("submit-status").textContent =
+        "Please submit from the published Netlify website.";
+      return;
+    }
+
+    cancelLookup();
+
+    const formData = new FormData(form);
+    formData.set("form-name", form.getAttribute("name"));
+
+    const body = new URLSearchParams();
+
+    for (const [key, value] of formData.entries()) {
+      if (typeof value === "string") {
+        body.append(key, value.trim());
+      }
+    }
+
+    submitting = true;
+
+    const controls = Array.from(form.elements);
+    const originalDisabled = controls.map(control => control.disabled);
+
+    controls.forEach(control => {
+      control.disabled = true;
+    });
+
+    $("submit-status").className = "status";
+    $("submit-status").textContent = "Sending your appraisal request…";
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30000);
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: body.toString(),
+        signal: controller.signal
+      });
+
+      if (!response.ok) {
+        throw new Error("Submission was not accepted");
+      }
+
+      submitted = true;
+
+      $("submit-status").className = "status success";
+      $("submit-status").textContent =
+        "Thank you! Your appraisal request has been submitted. " +
+        "The Porsche Oklahoma City team will follow up using " +
+        "the contact information you provided.";
+
+      $("submit-button").textContent = "Request submitted";
+
+    } catch {
+      $("submit-status").className = "status error";
+      $("submit-status").textContent =
+        "We couldn't confirm your submission. Your entries are still here. " +
+        "Please call (405) 748-8080 for assistance. " +
+        "Trying again may create a duplicate request.";
+
+    } finally {
+      clearTimeout(timeout);
+      submitting = false;
+
+      if (!submitted) {
+        controls.forEach((control, index) => {
+          control.disabled = originalDisabled[index];
+        });
+      }
+    }
+  });
+
+  $("lookup-method").value = "plate";
+  updateMethod();
+  updateContactMethod();
+})();
+</script>
+</body>
+</html>
